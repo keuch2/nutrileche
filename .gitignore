@@ -1,0 +1,25 @@
+# Archivos de configuración del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de log
+*.log
+php_errors.log
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Directorios de uploads (archivos subidos por usuarios)
+uploads/*
+!uploads/.gitkeep
+
+# Archivos de configuración local
+.env
+config.local.php
+
+# Archivos de caché
+cache/
+.cache/ 

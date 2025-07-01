@@ -1,0 +1,204 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color:#fff;
+}
+
+.header img {
+    max-width: 500px;
+}
+
+.title {
+    color: #ff6f61;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inicioimagen {
+    background-color: #fee8d3;
+}
+
+#headerinterno {
+    text-align: center;
+    background-color: #fee8d3;
+}
+#headerinterno img {
+    max-width: 500px;
+}
+
+#tituloconcurso {
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+#dibujo {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;;
+}
+
+#dibujo img {
+
+    max-width: 450px;
+}
+
+#formularioinicio {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#formularioinicio h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #4a90e2;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: #a9d6a9;
+    border: none;
+}
+
+.progress {
+    margin-top: 10px;
+}
+
+.file-list {
+    margin-top: 10px;
+}
+
+.sponsors {
+    background-color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sponsors img {
+    max-width: 700px;
+    margin: 10px;
+}
+
+.loading-spinner {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+.fade-transition {
+    transition: opacity 0.5s ease-in-out;
+}
+.fade-out {
+    opacity: 0;
+}
+.fade-in {
+    opacity: 1;
+}
+.evidence-section {
+    background-color: #f8f9fa;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.evidence-section h3 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+}
+.file-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.file-item {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+.file-item i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+.file-item .file-name {
+    flex-grow: 1;
+}
+.file-item .file-name a {
+    color: #007bff;
+    text-decoration: none;
+}
+.file-item .file-name a:hover {
+    text-decoration: underline;
+}
+.file-item .delete-btn {
+    color: #dc3545;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.file-item .delete-btn:hover {
+    color: #c82333;
+}
+.user-links {
+    margin-top: 10px;
+}
+.user-links a {
+    margin-right: 15px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 12px;
+}
+.user-links a:hover {
+    text-decoration: underline;
+}
+
+#evidence-section {
+    padding: 30px;
+}
+
+#datousuario {
+    padding-bottom: 30px;
+}
+
+#datousuario p{
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .header img {
+        width: 100%;
+    }
+    .sponsors img {
+        width: 100%;
+    }
+    #headerinterno img {
+        width: 100%;
+    }
+    #dibujo img {
+        width:100%;
+    }
+    #tituloconcurso {
+        width:100%;
+    }
+    
+}
