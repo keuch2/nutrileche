@@ -42,4 +42,4 @@ Sistema de gestión para el concurso Nutrileche 2025, que permite a los particip
 
 ## Licencia
 
-Todos los derechos reservados. 
+Todos los derechos reservados.
